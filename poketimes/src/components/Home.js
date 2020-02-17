@@ -35,6 +35,7 @@ class Home extends Component {
   }
 }
 
+//this function have access to the current state of the store
 const mapStateToProps = (state) => {
   return {
     posts: state.posts
