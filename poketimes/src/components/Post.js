@@ -37,6 +37,7 @@ const mapStateToProps = (state, ownProps) => {
   }
 }
 
+//if it return a function it becomes a dispatch (?) 
 const mapDispatchToProps = (dispatch) => {
   return {
     deletePost: (id) => dispatch({type: 'DELETE_POST', id: id})
